@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RoboChat</title>
+	<link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfyljo3HqscUw_V2n_k-xGZ7KGDzo0MMYtlg&s">
+	<link rel="stylesheet" type="text/css" href="/chat.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<main>
+<header>
+	<h1>RoboChat</h1>
+	<button class="leave_button" onclick="Leave()">Leave</button>
+</header>
+<ul id="messages">
+</ul>
+<form id="form">
+	<input type="text" id="input" placeholder="Enter message..."><input type="submit" class="submit" value="Send">
+</form>
+</main>
+<script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</body>
+</html>

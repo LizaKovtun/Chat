@@ -11,7 +11,7 @@ const pathToScript = path.join(__dirname, 'static', 'script.js');
 
 const pathToRegIndex = path.join(__dirname, 'static', 'register.html');
 const pathToRegStyle = path.join(__dirname, 'static', 'register.css');
-const pathToAuthScript = path.join(__dirname, 'static', 'Auth.js');
+const pathToAuthScript = path.join(__dirname, 'static', 'auth.js');
 
 const pathToLogIndex = path.join(__dirname, 'static', 'login.html');
 
